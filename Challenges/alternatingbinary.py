@@ -9,7 +9,7 @@ try:
   while (binary[i] + binary[i + 1]) == 1:
     i += 1
 except IndexError:
-  if (len(binary) - 1) == i):
+  if (len(binary) - 1) == i:
     print('true')
   else:
     print('false')
