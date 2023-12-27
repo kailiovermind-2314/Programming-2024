@@ -3,7 +3,7 @@
 每个单元格的  平均灰度 定义为：该单元格自身及其周围的 8 个单元格的平均值，结果需向下取整。（即，需要计算蓝色平滑器中 9 个单元格的平均值）。
 对于位于边缘的像素，则计算平均灰度时不考虑缺失的单元格，只计算有效单元格平均即可。
 
-This is a much more elegant solution. It uses two for loops to cycle through the 8 squares surrounding a square.
+This is the elegant solution. It uses two for loops to cycle through the 8 squares surrounding a square.
 """
 
 def smooth_image(img):
