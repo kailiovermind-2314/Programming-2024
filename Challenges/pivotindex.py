@@ -7,7 +7,7 @@
 A simple question that can be completed with slicing.
 """
 
-nums = nums = [1, 2, 3]
+nums = [1, 7, 3, 6, 5, 6]
 def findmedian(nl):
   for i in range(len(nl)):
     if sum(nl[:i]) == sum(nl[(i + 1):]):
